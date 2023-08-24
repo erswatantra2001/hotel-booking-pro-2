@@ -1,0 +1,72 @@
+body{
+  margin: 0%;
+  background-color: rgba(255, 251, 196, 0);
+ 
+  overflow: hidden;
+}
+#flex-container
+{
+    display: flex;
+}
+#img
+{
+    display: block;
+
+}
+#form
+{
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 1px;
+    padding:5px;
+    font-size: 18px;
+}
+.imgtag
+{
+    width: 600px;
+    height: 100vh;
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+
+
+
+
+.signupbtn
+{
+    background-color: blue;
+     /* background-image: conic-gradient(red, yellow, green); */
+    color: aliceblue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    animation: pulse 1s infinite;
+   
+}
+.signupbtn:hover
+{
+    animation: pulse 0s infinite;
+}
+.input{
+    border-radius: 5px;
+    border: 2px solid grey;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 5px 5px gray;
+}
+.checkbox:hover
+{
+ box-shadow: 2px 2px gray;
+ box-sizing: 10px;
+}
+.checkmark
+{
+    font-size: 15px;
+}
